@@ -1,6 +1,6 @@
-<form method="post" action="src/actions/registration-handler.php">
+<form class="needs-validation" method="post" action="src/actions/registration-handler.php" novalidate>
     <div class="form-floating mb-3">
-        <input type="email" class="form-control" name="email" id="floatingInputEmail" placeholder="name@example.com" required>
+        <input type="email" class="form-control" name="email" id="floatingInputEmail" aria-invalid="true" placeholder="name@example.com" required>
         <label for="floatingInputEmail">Email</label>
     </div>
     <div class="form-floating mb-3">

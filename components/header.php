@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo isset($page_title) ? $page_title : 'Demo'; ?></title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
-    <title><?php echo isset($page_title) ? $page_title : 'Demo'; ?></title>
 </head>
 <header>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">

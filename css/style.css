@@ -1,0 +1,11 @@
+/* VALUES */
+:root{
+    --color-white: #fff;
+}
+
+/* REGISTRATION */
+.registrationblock{
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: var(--color-white);
+}
